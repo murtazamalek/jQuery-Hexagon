@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>jQuery and CSS3 Hexagon layout</title>
+
+<!--css files-->
+<link type="text/css" rel="stylesheet" href="css/normalize.css">
+<link type="text/css" rel="stylesheet" href="css/hex.css">
+
+</head>
+
+<body>
+
+<div id="grid"></div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/hex.js"></script>
+<script type="text/javascript">
+	$(document).ready(function (){
+		$("#grid").hexgrid({
+			width 	: 50
+		});
+	});
+</script>
+</body>
+</html>
